@@ -15,7 +15,7 @@ const App: React.FC = () => {
     <ThemeProvider attribute='class'>
       <div className='container mx-auto p-4 min-h-screen flex flex-col gap-3'>
         <div className='flex justify-between items-center mb-4 '>
-          <h1 className='text-3xl font-bold'>Hadith Search</h1>
+          <h1 className='text-3xl font-bold'>Hadith Verse</h1>
           <DarkModeToggle />
         </div>
         <div className='w-8'></div>
