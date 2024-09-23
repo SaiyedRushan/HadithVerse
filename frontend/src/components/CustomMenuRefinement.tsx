@@ -10,7 +10,7 @@ export default function MenuSelect(props: UseMenuProps) {
 
   return (
     <select
-      className='border rounded p-3 max-w-sm'
+      className='border rounded p-3 max-w-[300px]'
       value={selectedValue}
       onChange={(event) => {
         refine((event.target as HTMLSelectElement).value)

@@ -27,7 +27,7 @@ const App: React.FC = () => {
           </div>
           <div>
             <Accordion type='multiple' className='flex flex-col md:flex-row md:justify-around gap-5'>
-              <AccordionItem value='hadiths' className='w-full custom-accordion transition-all ease-in-out'>
+              <AccordionItem value='hadiths' className='w-full md:custom-accordion transition-all ease-in-out'>
                 <AccordionTrigger>Hadiths</AccordionTrigger>
                 <AccordionContent>
                   {/* hadith index */}
@@ -66,7 +66,7 @@ const App: React.FC = () => {
                 </AccordionContent>
               </AccordionItem>
 
-              <AccordionItem value='quran' className='w-full custom-accordion'>
+              <AccordionItem value='quran' className='w-full md:custom-accordion transition-all ease-in-out'>
                 <AccordionTrigger>Quran</AccordionTrigger>
                 <AccordionContent>
                   {/* quran index */}
