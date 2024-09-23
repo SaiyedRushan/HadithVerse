@@ -64,7 +64,8 @@
     @apply bg-background text-foreground;
   }
 }
-
-.custom-accordion[data-state="closed"] {
-  width: 10%;
+@layer utilities {
+  .custom-accordion[data-state="closed"] {
+    width: 8%;
+  }
 }
