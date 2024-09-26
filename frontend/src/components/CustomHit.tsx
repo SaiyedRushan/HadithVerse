@@ -7,10 +7,10 @@ function CustomHit({ hit }) {
       <h2>
         <Highlight attribute={"text_en"} hit={hit} />
       </h2>
-      <p className='text-blue-700'>
+      <p className='text-green-700'>
         Chapter #{hit.chapter_no}: {hit.chapter}
       </p>
-      <p className='text-blue-700'>Source: {hit.source}</p>
+      <p className='text-green-700'>Source: {hit.source}</p>
     </div>
   )
 }
