@@ -5,17 +5,17 @@ import { Link } from "react-router-dom"
 const LandingPage = () => {
   return (
     <div className='flex flex-col items-center justify-center min-h-[80vh] py-2'>
-      <main className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 min-h-[70vh]'>
+      <main className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 my-20'>
         <h1 className='text-5xl font-thin'>السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ</h1>
         <p className='mt-3 text-2xl'>Get started by searching for Hadiths and Quranic verses quickly</p>
         <Link to='/search'>
-          <Button>
-            Search &ensp; <ArrowRight />
+          <Button className='group'>
+            Search &ensp; <ArrowRight className='transition-transform group-hover:translate-x-2' />
           </Button>
         </Link>
       </main>
       {/* Features section */}
-      <div id='features' className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 mb-10'>
+      <div id='features' className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 mb-20'>
         <div className='text-xl font-light'>HadithVerse is currently indexed on the full quran translation and the following 6 hadith books containing over 17,000 Hadiths</div>
         <ul className='grid grid-cols-2 gap-4'>
           <li className='border rounded-lg p-2 shadow hover:shadow-md hover:scale-110 transition-all'>Sunan an-Nasa'i</li>
@@ -29,7 +29,7 @@ const LandingPage = () => {
       </div>
 
       {/* Contact section */}
-      <div id='contact' className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 mb-10'>
+      <div id='contact' className='flex flex-col items-center justify-center w-full flex-1 max-w-xl text-center gap-10 mb-20'>
         <div className='text-xl font-light'>Shoot me an email if you'd like to see any new features or bug fixes!</div>
         <form
           className='w-full max-w-md'
